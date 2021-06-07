@@ -17,13 +17,13 @@ Fonts are separated by a | */
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #40798c;  /* headlines on a white background */ 
   --headline-color-on-color: #fff75c; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: black;
-  --nav-link-color: #396E94;
-  --nav-background-color: #E7C24F;
-  --nav-hover-link-color: #E7C24F;
-  --nav-hover-background-color: #396E94;
+  --paragraph-color-on-white: #40798c; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #40798c; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #01fdf6;
+  --nav-link-color: #40798c;
+  --nav-background-color: #fff75c;
+  --nav-hover-link-color: #fff75c;
+  --nav-hover-background-color: #40798c;
 }
 
 
