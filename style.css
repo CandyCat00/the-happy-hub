@@ -112,7 +112,7 @@ h1 {
   grid-row: 1;
   z-index: 1;
   text-align: center;
-  margin: 20vw 20vw 0px 40vw;
+  margin: 50px 50px 0px 100px;
   padding: 5px 50px;
   
   font-size: 1.5vw;
@@ -146,4 +146,8 @@ h2.chara {
 h2.art {
   padding-right: 20vw;
   font-size: 2.25vw;
+}
+
+.footer {
+
 }
