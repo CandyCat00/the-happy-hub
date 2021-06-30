@@ -58,7 +58,9 @@ nav li {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap
+  column-gap: 40px;
+  justify-items: center;
+  align-items: center;
 }
 
 .site-banner {
@@ -126,4 +128,8 @@ h1 {
 .art {
   grid-column: 2/3;
   grid-row: 5;
+}
+
+h2.chara {
+  padding-left: 300px;
 }
