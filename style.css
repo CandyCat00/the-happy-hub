@@ -123,13 +123,26 @@ h1 {
 .chara {
   grid-column: 1/2;
   grid-row: 5;
+  margin-left: 50px;
 }
 
 .art {
   grid-column: 2/3;
   grid-row: 5;
+  margin-right: 50px;
+}
+
+a.chara img, a.art img {
+  border: 2px solid #40798c;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #888888;
 }
 
 h2.chara {
-  padding-left: 300px;
+  padding-left: 260px;
+  font-size: 2em;
+}
+
+h2.art {
+  padding-right: 260px;
 }
