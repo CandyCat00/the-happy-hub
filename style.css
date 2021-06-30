@@ -157,6 +157,7 @@ footer {
   grid-template-columns: auto 200px;
   background-color: #fff75c;
   margin-top: 50px;
+  padding: 10px;
 }
 
 .social {
