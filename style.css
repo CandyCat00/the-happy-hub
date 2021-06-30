@@ -31,9 +31,10 @@ header {
 
 nav a {
   color: #40798c;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-family: 'Hi Melody', cursive;
   border: 1px double black;
+  padding: 10px 30%;
 }
 
 nav a:hover {
