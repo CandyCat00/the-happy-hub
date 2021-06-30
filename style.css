@@ -8,25 +8,28 @@ body {
 
 #content {
   background-color: white;
-  max-width: 950
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5px;
 }
+
 h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
 }
 
-.logo-box {
-  background-color: #89D2DC;
-  display: inline-block;
-  margin-bottom: 0px;
-  margin-right: 0px;
+.logo {
+  max-width: 100%;
 }
 
 header {
   display: grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 50px auto;
   align-items: center;
-  background-color: #3A3F55;
+  background-color: #fff75c;
+  padding: 10px;
+  
+  height: 50px;
 }
 
 nav a {
