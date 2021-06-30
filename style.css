@@ -1,6 +1,5 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody|Gaegu');
 
 body {
   background-color: #cbc5ea;
@@ -14,8 +13,7 @@ body {
 }
 
 h1 {
-  font-family: "Merriweather", serif;
-  font-size: 32px;
+  
 }
 
 .logo {
@@ -27,15 +25,15 @@ header {
   grid-template-columns: 50px auto;
   align-items: center;
   background-color: #fff75c;
-  padding: 10px;
-  
+  padding: 10px 30px;
   height: 50px;
 }
 
 nav a {
-  color: #FAD6C6;
-  font-size: 1.1em;
-  font-family: ubuntu, sans-serif;
+  color: #40798c;
+  font-size: 1.5em;
+  font-family: 'Hi Melody', cursive;
+  border: 1px double black;
 }
 
 nav a:hover {
