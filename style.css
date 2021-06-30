@@ -38,7 +38,6 @@ nav a {
 }
 
 nav a:hover {
-  color: #3A3F55;
   background-color: #89D2DC;
 }
 
@@ -47,8 +46,18 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
+  padding: 0 auto;
 }
 
 nav li {
   text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.site-banner {
+  grid-column: 1/3;
 }
