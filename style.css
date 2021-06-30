@@ -7,7 +7,6 @@ body {
 
 h1, h2, h3 {
   font-family: "Hi Melody", cursive;
-  z-index: 1;
 }
 
 #content {
@@ -138,16 +137,23 @@ a.chara img, a.art img {
   box-shadow: 5px 5px 10px #888888;
 }
 
-h2.chara {
+a.chara, a.art {
+  z-index: 1;
+  text-decoration: none;
+}
+
+a.chara h2 {
   padding-left: 20vw;
   font-size: 2.25vw;
 }
 
-h2.art {
+a.art h2 {
   padding-right: 20vw;
   font-size: 2.25vw;
 }
 
-.footer {
-
+footer {
+  diplay: grid;
+  grid-template-columns: auto 200px;
+  background-color: #fff75c;
 }
