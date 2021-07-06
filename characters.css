@@ -66,6 +66,13 @@ nav li {
   border-radius: 10px;
   margin: 20px;
   padding: 10px;
+  text-align: center;
+  line-height: 1em;
+}
+
+.character-select h3 {
+  margin-top: 5px;
+  
 }
 
 .character-select ul {
