@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Hi+Melody|Gaegu");
+
+body {
+  background-color: #cbc5ea;
+}
+
+h1, h2, h3 {
+  font-family: "Hi Melody", cursive;
+}
+
+#content {
+  background-color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5px;
+  box-shadow: 0px 0px 20px #888888;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 50px auto;
+  align-items: center;
+  background-color: #fff75c;
+  padding: 10px 30px;
+  height: 50px;
+}
+
+nav a {
+  color: #40798c;
+  font-size: 1.75em;
+  font-family: "Hi Melody", cursive;
+  border: 1px double black;
+  padding: 10px 30%;
+}
+
+nav a:hover {
+  background-color: #89D2DC;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+  padding: 0 auto;
+}
+
+nav li {
+  text-align: center;
+}
