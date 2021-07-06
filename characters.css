@@ -55,12 +55,26 @@ nav li {
 
 /*Character Select Bar*/
 .character-select {
+  background-color: #01fdf6;
+  border: 2px solid #40798c;
+  border-radius: 10px;
   margin: 20px;
+  padding: 10px;
 }
+
 .character-select ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
-  padding: 0 auto;
+  padding: 0;
   list-style: none;
+}
+
+.character-select li {
+  text-align: center;
+}
+
+/*the profile template. It defalts to Yasashi, but changes when another character is clicked useing javascript*/
+.profile {
+  display: grid;
 }
