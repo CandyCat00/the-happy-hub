@@ -126,7 +126,7 @@ nav li {
   line-height: 1em;
 }
 
-.origins h3, .basic h3 {
+.origins h3, .basic h3, .gallery h3 {
   font-size: 1.5em;
   color: #242038;
   border: 1px solid #242038;
@@ -139,11 +139,31 @@ nav li {
   background-color: #40798c;
   border: 2px solid #242038;
   border-radius: 10px;
-  margin: 10px auto;
+  margin: 10px 30px;
   padding: 10px;
+  line-height: 1em;
 }
 
 .gallery ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto 200px;
+  background-color: #fff75c;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.social {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+footer p, footer a {
+  grid-column: 1/2;
+  grid-row: 1;
 }
