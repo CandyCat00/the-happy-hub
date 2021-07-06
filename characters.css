@@ -87,4 +87,18 @@ nav li {
   margin: 10px auto;
   padding: 10px;
   color: white;
+  text-align: center;
+  font-size: 2em;
+  line-height: 5px;
+}
+
+.basic {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #01fdf6;
+}
+
+.origins {
+  grid-column: 2;
+  grid-row: 1;
 }
