@@ -52,3 +52,15 @@ nav ul {
 nav li {
   text-align: center;
 }
+
+/*Character Select Bar*/
+.character-select {
+  margin: 20px;
+}
+.character-select ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+  padding: 0 auto;
+  list-style: none;
+}
