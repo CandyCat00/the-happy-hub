@@ -88,12 +88,22 @@ nav li {
 }
 
 .character-select button {
-  broder: 2px solid #888888;
-  
+  border: none;
+  border-radius: 7px;
+  padding: 2px;
+}
+
+button:hover {
+  border: 2px solid #40798c;
+  padding: 0px;
+}
+
+button:click {
+  inner-box-shadow: 0 0 
 }
 
 .character-select img {
-  height: 100px;
+  height: 50px;
 }
 
 /*the profile template. It defalts to Yasashi, but changes when another character is clicked useing javascript*/
