@@ -8,16 +8,21 @@ let yasashi = {
 let scarem = {
   'image': '',
   'name': 'Scarem',
-  'basic': 'Species: Fruit Bat<br />Coat: Brown<br /> Eye Color: Violet<br />',
+  'basic': 'Species: Fruit Bat<br />Coat: Brown<br />Eye Color: Violet<br />',
   'background': ''
 }
 
 let ginji = {
   'image': '',
   'name' : 'Ginji',
-  'basic': 'Species: Tanooki<br />Coat: Re'
+  'basic': 'Species: Tanooki<br />Coat: Orange<br />Eye Color: Cyan<br />',
+  'background': ''
 }
 
 let mantis = {
-  
+  'image': '',
+  'name' : 'Mantis',
+  'basic': 'Species: Unknown<br />Coat: White<br />Eye Color: Purple<br />',
+  'background': ''
 }
+

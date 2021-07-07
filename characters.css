@@ -87,6 +87,11 @@ nav li {
   text-align: center;
 }
 
+.character-select button {
+  broder: 2px solid #888888;
+  
+}
+
 .character-select img {
   height: 100px;
 }
