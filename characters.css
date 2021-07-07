@@ -169,7 +169,10 @@ button:hover {
 .gallery ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-  
+}
+
+.gallery img {
+  max-height: 100px;
 }
 
 footer {
