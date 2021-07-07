@@ -63,8 +63,14 @@ let displayMantis = () => {
 
 document.querySelector('#mantis').addEventListener('click', displayMantis);
 
+
 function fillGallery(gallery) {
+  let listItem;
   for (let i = 0; i < gallery.length; i++) {
-    listItem=""
+    //create the new list item
+    listItem = document.createElement('li');
+    //assign each gallery image to new li
+    listItem.innerHTML = gallery[i];
+    /
   }
 }
