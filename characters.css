@@ -98,10 +98,6 @@ button:hover {
   padding: 0px;
 }
 
-button:click {
-  inner-box-shadow: 0 0 
-}
-
 .character-select img {
   height: 50px;
 }

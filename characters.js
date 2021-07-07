@@ -26,3 +26,8 @@ let mantis = {
   'background': ''
 }
 
+let displayYasashi = () => {
+  document.querySelector('#name').innerHTML = yasashi.name;
+}
+
+document.querySelector('#yasashi').addEventListener('click', displayYasashi);
