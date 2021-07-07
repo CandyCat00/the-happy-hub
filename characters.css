@@ -87,6 +87,10 @@ nav li {
   text-align: center;
 }
 
+.character-select img {
+  height: 100px;
+}
+
 /*the profile template. It defalts to Yasashi, but changes when another character is clicked useing javascript*/
 .profile {
   display: grid;
