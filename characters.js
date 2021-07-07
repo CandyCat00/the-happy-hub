@@ -10,7 +10,7 @@ let scarem = {
   'image': 'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F56363E1B-4B15-43D7-8B63-88CA477685C2.jpeg?v=1625696961218',
   'name': 'Scarem',
   'basic': 'Species: Fruit Bat<br />Coat: Brown<br />Eye Color: Violet<br />',
-  'background': '',
+  'background': 'Lilinoe is the princess born into Kōmori Kingdom. When she was young she encountered a spirit that paired with her, causing her eyes to appear soulless, like she was possessed. This brought fear to her parents and hid her away in her room so the kingdom wouldn’t find out. Eventually this isolation brought her to the decision to runaway; giving herself the undercover name “Scarem.”',
   'gallery': []
 }
 
@@ -26,7 +26,7 @@ let mantis = {
   'image': 'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F44CFA87B-5253-4B70-B9CE-7D87A31DF3E1.jpeg?v=1625696945860',
   'name' : 'Mantis',
   'basic': 'Species: Unknown<br />Coat: White<br />Eye Color: Purple<br />',
-  'background': '',
+  'background': 'Mantis is an alien who fell down to Earth. Unable to speak the local language or understand Earth’s customs, she was naturally quite oblivious and naïve to most things. Luckily she had Genji to teach her what she didn’t know— and to keep her from accidentally floating away.',
   'gallery': []
 }
 
