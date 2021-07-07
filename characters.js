@@ -10,16 +10,19 @@ let scarem = {
   'image': 'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F56363E1B-4B15-43D7-8B63-88CA477685C2.jpeg?v=1625696961218',
   'name': 'Scarem',
   'basic': 'Species: Fruit Bat<br />Coat: Brown<br />Eye Color: Violet<br />',
-  'background': 'Lilinoe is the princess born into Kōmori Kingdom. When she was young she encountered a spirit that paired with her, causing her eyes to appear soulless, like she was possessed. This brought fear to her parents and hid her away in her room so the kingdom wouldn’t find out. Eventually this isolation brought her to the decision to runaway; giving herself the undercover name “Scarem.”',
-  'gallery': []
+  'background': 'Lilinoe is the princess born into Kōmori Kingdom. When she was young she encountered a spirit that paired with her, causing her eyes to appear soulless, like she was possessed. This brought fear to her parents and they hid her away in her room so the kingdom wouldn’t find out. Eventually this isolation brought her to the decision to runaway; giving herself the undercover name “Scarem.”',
+  'gallery': ['']
 }
 
 let ginji = {
   'image': 'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FA68B84A6-9C74-496F-B9DD-F7B51B7944DE.jpeg?v=1625696949249',
   'name' : 'Ginji',
   'basic': 'Species: Tanooki<br />Coat: Orange<br />Eye Color: Cyan<br />',
-  'background': '',
-  'gallery': ['https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FprettyBoi.jpeg?v=1624753111273',]
+  'background': 'Genji grew up on a farm with his parents. Being quite poor and having to continuously give their savings away to taxes for the kingdom, Genji made it his goal to do whatever it takes to earn money for his family. Sometimes it causes to commit betrayal to people he gains trust with. This causes him to make lots of enemies and little friends. Though he doesn’t seem to care as all he feels he needs is himself and his family. That is until Mantis crashed into his life…',
+  'gallery': ['https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FprettyBoi.jpeg?v=1624753111273',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F958DD1BE-4B68-4C4E-B4A2-8CF584C9CD81.jpeg?v=1625700075044',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FA458EC4E-9461-418D-AB57-F3A670D56A66.jpeg?v=1625700086938',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FEEA82A6F-F18E-4801-998B-7B93681F7665.jpeg?v=1625700092523']
 }
 
 let mantis = {
@@ -27,7 +30,10 @@ let mantis = {
   'name' : 'Mantis',
   'basic': 'Species: Unknown<br />Coat: White<br />Eye Color: Purple<br />',
   'background': 'Mantis is an alien who fell down to Earth. Unable to speak the local language or understand Earth’s customs, she was naturally quite oblivious and naïve to most things. Luckily she had Genji to teach her what she didn’t know— and to keep her from accidentally floating away.',
-  'gallery': []
+  'gallery': ['https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FC5ECE302-537C-417D-BEE3-819B3A391C29.jpeg?v=1625700071103',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F958DD1BE-4B68-4C4E-B4A2-8CF584C9CD81.jpeg?v=1625700075044',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FA458EC4E-9461-418D-AB57-F3A670D56A66.jpeg?v=1625700086938',
+              '']
 }
 
 let displayYasashi = () => {

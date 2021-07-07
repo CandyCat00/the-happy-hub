@@ -72,7 +72,6 @@ nav li {
 
 .character-select h3 {
   margin-top: 5px;
-  
 }
 
 .character-select ul {
@@ -113,7 +112,7 @@ button:hover {
 .chara-image {
   grid-column: 1;
   grid-row: 1/3;
-  
+
   background-color: #40798c;
   border: 2px solid #242038;
   border-radius: 10px;
@@ -128,7 +127,7 @@ button:hover {
 .basic {
   grid-column: 2;
   grid-row: 1;
-  
+
   background-color: #01fdf6;
   border: 2px solid #40798c;
   border-radius: 10px;
@@ -140,7 +139,7 @@ button:hover {
 .origins {
   grid-column: 2;
   grid-row: 2;
-  
+
   background-color: #fff75c;
   border: 2px solid #40798c;
   border-radius: 10px;
@@ -149,14 +148,15 @@ button:hover {
   line-height: 1em;
 }
 
-.origins h3, .basic h3, .gallery h3 {
+.origins h3,
+.basic h3,
+.gallery h3 {
   font-size: 1.5em;
   color: #242038;
   border: 1px solid #242038;
   padding: 5px;
   margin: 5px;
 }
-
 
 /*image gallery showing screenshots of the character's appearances*/
 .gallery {
@@ -179,7 +179,6 @@ button:hover {
   max-height: 100px;
 }
 
-
 /*the footer of the page*/
 footer {
   display: grid;
@@ -194,7 +193,8 @@ footer {
   grid-row: 1;
 }
 
-footer p, footer a {
+footer p,
+footer a {
   grid-column: 1/2;
   grid-row: 1;
 }
