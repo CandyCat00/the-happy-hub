@@ -64,5 +64,7 @@ let displayMantis = () => {
 document.querySelector('#mantis').addEventListener('click', displayMantis);
 
 function fillGallery(gallery) {
-  for (i =)
+  for (let i = 0; i < gallery.length; i++) {
+    listItem=""
+  }
 }
