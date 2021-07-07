@@ -27,7 +27,37 @@ let mantis = {
 }
 
 let displayYasashi = () => {
+  document.querySelector('#image').innerHTML = yasashi.image;
   document.querySelector('#name').innerHTML = yasashi.name;
+  document.querySelector('#basic').innerHTML = yasashi.basic;
+  document.querySelector('#background').innerHTML = yasashi.background;
 }
 
 document.querySelector('#yasashi').addEventListener('click', displayYasashi);
+
+let displayScarem = () => {
+  document.querySelector('#image').innerHTM = scarem.image;
+  document.querySelector('#name').innerHTML = scarem.name;
+  document.querySelector('#basic').innerHTML = scarem.basic;
+  document.querySelector('#background').innerHTML = scarem.background;
+}
+
+document.querySelector('#scarem').addEventListener('click', displayScarem);
+
+let displayGinji = () => {
+  document.querySelector('#image').innerHTML = ginji.image;
+  document.querySelector('#name').innerHTML = ginji.name;
+  document.querySelector('#basic').innerHTML = ginji.basic;
+  document.querySelector('#background').innerHTML = ginji.background;
+}
+
+document.querySelector('#ginji').addEventListener('click', displayGinji);
+
+let displayMantis = () => {
+  document.querySelector('#image').innerHTML = mantis.image;
+  document.querySelector('#name').innerHTML = mantis.name;
+  document.querySelector('#basic').innerHTML = mantis.basic;
+  document.querySelector('#background').innerHTML = mantis.background;
+}
+
+document.querySelector('#mantis').addEventListener('click', displayMantis);
