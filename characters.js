@@ -3,7 +3,11 @@ let yasashi = {
   'name' : 'Yasashi',
   'basic': 'Species: Corgi<br />Coat: Blue<br />Eye Color: Yellow<br />Weight: 25lb<br />',
   'background': 'Cheerful and upbeat, Yasashi’s first few years of her childhood was spent at “Puppy Pawz Orphange” after getting separated from her parents. Her blue fur made it hard for her to fit in, making her very self conscious about her look. However, when she is acquainted with others dear to her heart, she’s known to put their well being above her own. Her smile is quite contagious.',
-  'gallery': []
+  'gallery': ['https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F610FB785-5AA9-4A42-839A-6C98040C2AD4.jpeg?v=1625700101830',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F7D8702D8-FAB2-4A43-9BD8-98BB40443E70.jpeg?v=1625700112254',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FBC9D490B-AE24-46D9-9862-2DEC0BE6F89C.jpeg?v=1625700125918',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F8CB0AC3B-C69B-4C5D-A568-CB54B90423BD.jpeg?v=1625700155251',
+              '']
 }
 
 let scarem = {
@@ -11,7 +15,10 @@ let scarem = {
   'name': 'Scarem',
   'basic': 'Species: Fruit Bat<br />Coat: Brown<br />Eye Color: Violet<br />',
   'background': 'Lilinoe is the princess born into Kōmori Kingdom. When she was young she encountered a spirit that paired with her, causing her eyes to appear soulless, like she was possessed. This brought fear to her parents and they hid her away in her room so the kingdom wouldn’t find out. Eventually this isolation brought her to the decision to runaway; giving herself the undercover name “Scarem.”',
-  'gallery': ['']
+  'gallery': ['https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F5F2B9735-3A6F-4D04-8296-001B72B878CA.jpeg?v=1625700131735',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F1553A53E-1CA5-487F-A6E6-2FCD89B6E558.jpeg?v=1625700145065',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F449FF295-77F6-4339-9FB5-0264266E5681.jpeg?v=1625700149812',
+              '']
 }
 
 let ginji = {
@@ -22,7 +29,11 @@ let ginji = {
   'gallery': ['https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FprettyBoi.jpeg?v=1624753111273',
               'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F958DD1BE-4B68-4C4E-B4A2-8CF584C9CD81.jpeg?v=1625700075044',
               'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FA458EC4E-9461-418D-AB57-F3A670D56A66.jpeg?v=1625700086938',
-              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FEEA82A6F-F18E-4801-998B-7B93681F7665.jpeg?v=1625700092523']
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FEEA82A6F-F18E-4801-998B-7B93681F7665.jpeg?v=1625700092523',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F610FB785-5AA9-4A42-839A-6C98040C2AD4.jpeg?v=1625700101830',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F7D8702D8-FAB2-4A43-9BD8-98BB40443E70.jpeg?v=1625700112254',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F491F4D3D-C600-4150-B904-DBB4AB576C05.jpeg?v=1625700162301',
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FE95EF549-F54A-455F-B9DB-356FCF188374.jpeg?v=1625700183605']
 }
 
 let mantis = {
@@ -33,7 +44,7 @@ let mantis = {
   'gallery': ['https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FC5ECE302-537C-417D-BEE3-819B3A391C29.jpeg?v=1625700071103',
               'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F958DD1BE-4B68-4C4E-B4A2-8CF584C9CD81.jpeg?v=1625700075044',
               'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FA458EC4E-9461-418D-AB57-F3A670D56A66.jpeg?v=1625700086938',
-              '']
+              'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FA53E54FD-C519-45DA-9BEA-91B4B76216F8.jpeg?v=1625700174161']
 }
 
 let displayYasashi = () => {
