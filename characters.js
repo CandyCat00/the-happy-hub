@@ -58,6 +58,11 @@ let displayMantis = () => {
   document.querySelector('#name').innerHTML = mantis.name;
   document.querySelector('#basic').innerHTML = mantis.basic;
   document.querySelector('#background').innerHTML = mantis.background;
+  fillGallery(mantis.gallery);
 }
 
 document.querySelector('#mantis').addEventListener('click', displayMantis);
+
+function fillGallery(gallery) {
+  for (i =)
+}
