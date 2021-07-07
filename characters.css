@@ -156,6 +156,8 @@ button:hover {
   margin: 5px;
 }
 
+
+/*image gallery showing screenshots of the character's appearances*/
 .gallery {
   grid-column: 1/3;
   background-color: #40798c;
@@ -169,12 +171,15 @@ button:hover {
 .gallery ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  list-style: none;
 }
 
 .gallery img {
   max-height: 100px;
 }
 
+
+/*the footer of the page*/
 footer {
   display: grid;
   grid-template-columns: auto 200px;

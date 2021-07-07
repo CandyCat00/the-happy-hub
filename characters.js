@@ -72,16 +72,19 @@ document.querySelector('#mantis').addEventListener('click', displayMantis);
 
 
 function fillGallery(gallery) {
-  document.querySelector('#gallery').innerHTML = 
-  let listItem;
-  let image;
+  //first, make sure there are no other list items
+  document.querySelector('#gallery').innerHTML = '';
+  
+  //create a li and an img element for each gallery image in the given array
+  let listItem, image;
   for (let i = 0; i < gallery.length; i++) {
-    //create the new list item
     listItem = document.createElement('li');
     image = document.createElement('img');
-    //assign each gallery image to new li
+    
+    //assign gallery image to the src of a new img
     image.src = gallery[i];
-    //add the new li to the gallery ul
+    
+    //put the image in the new li and then add the li to the gallery ul
     listItem.appendChild(image);
     document.querySelector('#gallery').appendChild(listItem);
   }
