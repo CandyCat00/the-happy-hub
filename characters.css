@@ -107,6 +107,7 @@ button:hover {
   display: grid;
   grid-template-columns: 45% 55%;
   margin: 0 50px;
+  grid-gap: 5px;
 }
 
 .chara-image {
@@ -131,7 +132,7 @@ button:hover {
   background-color: #01fdf6;
   border: 2px solid #40798c;
   border-radius: 10px;
-  margin: 10px 30px 10px -10px;
+  margin: 10px 30px 10px 0px;
   padding: 10px;
   line-height: 1em;
 }
@@ -143,7 +144,7 @@ button:hover {
   background-color: #fff75c;
   border: 2px solid #40798c;
   border-radius: 10px;
-  margin: 10px 30px 10px -10px;
+  margin: 10px 30px 10px 0px;
   padding: 10px;
   line-height: 1em;
 }

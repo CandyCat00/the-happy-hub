@@ -7,7 +7,7 @@ let yasashi = {
 }
 
 let scarem = {
-  'image': '',
+  'image': 'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F56363E1B-4B15-43D7-8B63-88CA477685C2.jpeg?v=1625696961218',
   'name': 'Scarem',
   'basic': 'Species: Fruit Bat<br />Coat: Brown<br />Eye Color: Violet<br />',
   'background': '',
@@ -15,7 +15,7 @@ let scarem = {
 }
 
 let ginji = {
-  'image': '',
+  'image': 'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FA68B84A6-9C74-496F-B9DD-F7B51B7944DE.jpeg?v=1625696949249',
   'name' : 'Ginji',
   'basic': 'Species: Tanooki<br />Coat: Orange<br />Eye Color: Cyan<br />',
   'background': '',
@@ -23,7 +23,7 @@ let ginji = {
 }
 
 let mantis = {
-  'image': '',
+  'image': 'https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2F44CFA87B-5253-4B70-B9CE-7D87A31DF3E1.jpeg?v=1625696945860',
   'name' : 'Mantis',
   'basic': 'Species: Unknown<br />Coat: White<br />Eye Color: Purple<br />',
   'background': '',
