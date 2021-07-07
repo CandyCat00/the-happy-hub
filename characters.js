@@ -19,7 +19,7 @@ let ginji = {
   'name' : 'Ginji',
   'basic': 'Species: Tanooki<br />Coat: Orange<br />Eye Color: Cyan<br />',
   'background': '',
-  'gallery': []
+  'gallery': ['https://cdn.glitch.com/9302465f-36ff-4dbd-8f13-95adddccdfd2%2FprettyBoi.jpeg?v=1624753111273',]
 }
 
 let mantis = {
@@ -73,12 +73,15 @@ document.querySelector('#mantis').addEventListener('click', displayMantis);
 
 function fillGallery(gallery) {
   let listItem;
+  let image;
   for (let i = 0; i < gallery.length; i++) {
     //create the new list item
     listItem = document.createElement('li');
+    image = document.createElement('img');
     //assign each gallery image to new li
-    listItem.innerHTML = gallery[i];
+    image.src = gallery[i];
     //add the new li to the gallery ul
     document.querySelector('#gallery').appendChild(listItem);
+    listItem = document.createElement()
   }
 }
