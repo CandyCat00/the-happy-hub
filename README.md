@@ -1,10 +1,10 @@
-Person Site Project
+Personal Site Project
 ==================
 
-Use this as a starting point for your Personal site.
+This site was made as project for a Web Design class, but it also doubles as a website giving users behind-the-scenes information about the YouTube Channel, Happy Spark.
 
-Use the site-plan.html to complete the planning for the site.
+More information can be found in the site-plan.html file.
 
-When you are ready to start building your site start with index.html.  Feel free to replace or change anything in that file.  It will become the homepage for your site.
+index.html is the Home Page and is styled by styles.css.
 
-
+Sub pages are found under the other html files and are styled by a css file of the same name.
